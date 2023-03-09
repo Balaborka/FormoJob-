@@ -1,8 +1,13 @@
 import React from 'react';
+import {Panel} from './components/panel'
 
 function App() {
   return (
-    <h1>123</h1>
+    <body className="h-screen bg-gradient-to-b from-gray-100 to-gray-300">
+      <div className="container mx-auto max-w-6xl pt-5">
+        <Panel />
+      </div>
+    </body>
   );
 }
 
