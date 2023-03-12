@@ -1,3 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.main {
+    background-color: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%);
+}
+.content {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.panel {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 0px 50px;
+}
