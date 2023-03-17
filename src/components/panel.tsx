@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-export function Panel() {
-    return (
-        <div className='panel'>
-            Panel
-        </div>
-    )
+interface PanelProps {
+  children: React.ReactNode;
 }
+
+export const Panel: React.FunctionComponent<PanelProps> = (props) => {
+  return (
+    <div className='panel'>
+      {props.children}
+    </div>
+  );
+};
