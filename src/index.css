@@ -5,14 +5,17 @@
     background-color: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%);
 }
 .content {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .panel {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 0px 0px 0px 30px;
     margin-bottom: 100px;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 .lightPanel {
     background-color: #FFFFFF;
@@ -36,4 +39,36 @@
 .panelHeaderDescription {
     font-weight: 700;
     font-size: 22px;
+}
+.block {
+    background: #F9F9F9;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 1%;
+    width: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blocksContainer {
+    margin-top: 50px;
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: row;
+}
+.blockTitle {
+    color: #FC8C45;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.blockDescription {
+    font-weight: 400;
+    font-size: 18px;
+}
+.blockImage {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
 }
