@@ -1,9 +1,10 @@
 import React from 'react'
+import { PanelHeader } from './panelHeader'
 
 export function APIPanel() {
     return (
         <div>
-            APIPanel
+            <PanelHeader header='API' description='Create your own applications based on our recognizing interface ' />
         </div>
     )
 }

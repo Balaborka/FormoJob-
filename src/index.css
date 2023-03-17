@@ -10,7 +10,7 @@
 }
 .panel {
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 0px 0px 50px;
+    border-radius: 0px 0px 0px 30px;
     margin-bottom: 100px;
     padding: 5%;
 }
@@ -21,4 +21,18 @@
 .darkPanel {
     background-color: #575757;
     color: #FFFFFF;
+}
+.panelHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.panelHeaderTitle {
+    color: #FC8C45;
+    font-weight: bold;
+    font-size: 30px;
+}
+.panelHeaderDescription {
+    font-weight: bold;
+    font-size: 16px;
 }

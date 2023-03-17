@@ -1,9 +1,10 @@
 import React from 'react'
+import { PanelHeader } from './panelHeader'
 
 export function ExtensionPanel() {
     return (
         <div>
-            ExtensionPanel
+            <PanelHeader header='Browser Extension' description='Your browser form-filling assistant' />
         </div>
     )
 }
