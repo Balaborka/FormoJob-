@@ -8,9 +8,9 @@ function App() {
   return (
     <body className='main'>
       <div className='content'>
-        <Panel children={<FormoJobPanel />} />
-        <Panel children={<ExtensionPanel />} />
-        <Panel children={<APIPanel />} />
+        <Panel theme='lightPanel' children={<FormoJobPanel />} />
+        <Panel theme='lightPanel' children={<ExtensionPanel />} />
+        <Panel theme='darkPanel' children={<APIPanel />} />
       </div>
     </body>
   );
