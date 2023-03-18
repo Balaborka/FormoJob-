@@ -30,6 +30,7 @@
     color: #FFFFFF;
 }
 .panelHeader {
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -46,7 +47,6 @@
 }
 
 .blocksContainer {
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -69,10 +69,10 @@
 .blockDescription {
     font-weight: 400;
     font-size: 18px;
+    margin-bottom: 10px;
 }
-.blockImage {
+.blockIcon {
     width: 80px;
-    height: 80px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -94,14 +94,15 @@
     font-size: 18px;
     min-height: 150px;
 }
-.instructionImage {
+
+.screenshotImage {
     height: 360px;
     border-radius: 25px;
     border: 4px solid #FC8C45;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
     margin-bottom: 5px;
 }
-.instructionSignature {
+.screenshotSignature {
     font-weight: 400;
     font-size: 10px;
     color: #6A6A6A;
@@ -126,4 +127,16 @@
 }
 .btn:hover {
     cursor: pointer;
+}
+
+.extensionContentContainer {
+    display: flex;
+    flex-direction: row;
+}
+.extensionInstructionContainer {
+    margin-top: -110px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

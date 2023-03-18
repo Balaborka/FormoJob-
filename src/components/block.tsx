@@ -13,7 +13,7 @@ export const Block: React.FunctionComponent<BlockProps> = (props) => {
                 <div className='blockTitle'>{ props.title }</div>
                 <div className='blockDescription'>{ props.description }</div>
             </div>
-            <img className='blockImage' src={ props.image }></img>
+            <img className='blockIcon' src={ props.image }></img>
         </div>
     );
 };

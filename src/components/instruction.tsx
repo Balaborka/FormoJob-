@@ -1,4 +1,5 @@
 import React from 'react';
+import { Screenshot } from './screenshot'
 
 interface InstructionProps {
     title: string;
@@ -14,8 +15,7 @@ export const Instruction: React.FunctionComponent<InstructionProps> = (props) =>
                 <div className='instructionTitle'>{props.title}</div>
                 <div className='instructionDescription'>{props.description}</div>
             </div>
-            <img className='instructionImage' src={props.image}></img>
-            <div className='instructionSignature'>{props.signature}</div>
+            <Screenshot image={ props.image } signature={ props.signature } />
         </div>
     );
 };
