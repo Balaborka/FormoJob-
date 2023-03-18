@@ -149,3 +149,18 @@ body {
     margin-right: 0;
     margin-left: 0;
 }
+
+.guideLine {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    min-width: 1217px;
+}
+.LeftCursorIcon {
+    margin-left: 2.5%;
+}
+.RightCursorIcon {
+    margin-right: 2.5%;
+}
