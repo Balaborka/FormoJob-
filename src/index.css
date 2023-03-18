@@ -1,8 +1,8 @@
 * {
     font-family: 'Raleway';
 }
-.main {
-    background-color: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%);
+body {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,206,206,1) 100%);
 }
 .content {
     margin-right: 5%;
@@ -129,7 +129,7 @@
     cursor: pointer;
 }
 
-.extensionContentContainer {
+.extensionContainer {
     display: flex;
     flex-direction: row;
 }
@@ -139,4 +139,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.APIcontentContainer {
+    display: flex;
+    justify-content: center;
+}
+.APIcontentContainer img {
+    margin-right: 0;
+    margin-left: 0;
 }

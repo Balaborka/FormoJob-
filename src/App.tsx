@@ -7,13 +7,11 @@ import { APIPanel } from './components/API_panel'
 
 function App() {
   return (
-    <body className='main'>
-      <div className='content'>
-        <Product panel={ <Panel theme='lightPanel' children={<FormoJobPanel />} /> } buttonText='Try Designer' link='.' />
-        <Product panel={ <Panel theme='lightPanel' children={<ExtensionPanel />} /> } buttonText='Try Extension' link='.' />
-        <Product panel={ <Panel theme='darkPanel' children={<APIPanel />} /> } buttonText='GitHub' link='.' />
-      </div>
-    </body>
+    <div className='content'>
+      <Product panel={<Panel theme='lightPanel' children={<FormoJobPanel />} />} buttonText='Try Designer' link='.' />
+      <Product panel={<Panel theme='lightPanel' children={<ExtensionPanel />} />} buttonText='Try Extension' link='.' />
+      <Product panel={<Panel theme='darkPanel' children={<APIPanel />} />} buttonText='GitHub' link='.' />
+    </div>
   );
 }
 
