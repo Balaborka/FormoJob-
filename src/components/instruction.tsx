@@ -2,20 +2,20 @@ import React from 'react';
 
 interface InstructionProps {
     title: string;
-    description: string;
+    description: React.ReactNode;
     image: string;
-    signature: string; 
+    signature: string;
 }
 
 export const Instruction: React.FunctionComponent<InstructionProps> = (props) => {
     return (
         <div className='instruction'>
             <div>
-                <div className='instructionTitle'>{ props.title }</div>
-                <div className='instructionDescription'>{ props.description }</div>
+                <div className='instructionTitle'>{props.title}</div>
+                <div className='instructionDescription'>{props.description}</div>
             </div>
-            <img className='instructionkImage' src={ props.image }></img>
-            <div className='instructionSignature'>{ props.signature }</div>
+            <img className='instructionImage' src={props.image}></img>
+            <div className='instructionSignature'>{props.signature}</div>
         </div>
     );
 };

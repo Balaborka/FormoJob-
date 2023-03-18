@@ -1,4 +1,5 @@
 import React from 'react';
+import { Product } from './components/product'
 import { Panel } from './components/panel'
 import { FormoJobPanel } from './components/formojob_panel'
 import { ExtensionPanel } from './components/extension_panel'
@@ -8,9 +9,9 @@ function App() {
   return (
     <body className='main'>
       <div className='content'>
-        <Panel theme='lightPanel' children={<FormoJobPanel />} />
-        <Panel theme='lightPanel' children={<ExtensionPanel />} />
-        <Panel theme='darkPanel' children={<APIPanel />} />
+        <Product panel={ <Panel theme='lightPanel' children={<FormoJobPanel />} /> } buttonText='Try Designer' link='.' />
+        <Product panel={ <Panel theme='lightPanel' children={<ExtensionPanel />} /> } buttonText='Try Extension' link='.' />
+        <Product panel={ <Panel theme='darkPanel' children={<APIPanel />} /> } buttonText='GitHub' link='.' />
       </div>
     </body>
   );
