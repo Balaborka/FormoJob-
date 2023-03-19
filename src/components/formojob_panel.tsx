@@ -1,6 +1,7 @@
 import React from 'react'
 import { Block } from './block'
 import { Instruction } from './instruction'
+
 import ListBox from './listBox';
 
 import TimeIcon from '../icons/Time.png'
@@ -51,7 +52,6 @@ export function FormoJobPanel() {
                     description="Printing contracts is an integral part of the business. However, you can always send a contract to your client by e-mail. Save a sheet of paper today - save a forest in the future."
                     image={ NatureIcon } />
             </div>
-
             <div className='instructionsContainer'>
                 <Instruction title='Create a template' description={ <ListBox itemsSource={ listCreateTemplate } /> } image={ DesktopViewImage } signature='FormoJob Designer - Desktop view' />
                 <Instruction title='Auto-fill a contract' description={ <ListBox itemsSource={ listFillContract } /> } image={ MobileViewImage } signature='FormoJob Viewer - Mobile view' />

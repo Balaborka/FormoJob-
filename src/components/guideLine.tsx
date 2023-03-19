@@ -1,13 +1,13 @@
 import React from 'react';
 
-import LeftCursorIcon from '../icons/LeftCursor.svg'
-import RightCursorIcon from '../icons/RightCursor.svg'
+import LeftCursorIcon from '../icons/LeftCursor.png'
+import RightCursorIcon from '../icons/RightCursor.png'
 
 export function GuideLine() {
   return (
     <div className='guideLine'>
-        <img className='blockIcon LeftCursorIcon' src={ LeftCursorIcon } />
-        <img className='blockIcon RightCursorIcon' src={ RightCursorIcon } />
+        <img className='LeftCursorIcon' src={ LeftCursorIcon } />
+        <img className='RightCursorIcon' src={ RightCursorIcon } />
     </div>
   );
 }

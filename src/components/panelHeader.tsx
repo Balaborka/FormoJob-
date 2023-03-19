@@ -1,4 +1,5 @@
 import React from 'react'
+import { GuideLine } from './guideLine';
 
 interface PanelHeaderProps {
     header: string;
@@ -16,6 +17,7 @@ export const PanelHeader: React.FunctionComponent<PanelHeaderProps> = (props) =>
             <div className='panelHeaderDescription'>
                 { props.description }
             </div>
+            <GuideLine />
         </div>
     )
 }

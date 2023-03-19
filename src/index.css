@@ -78,7 +78,6 @@ body {
     color: #FFFFFF;
 }
 .panelHeader {
-    margin-bottom: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -94,11 +93,9 @@ body {
 }
 .bottomArtefact {
     width: calc(100% - (94% + 0px));
-    margin-left: auto; 
     margin-left: calc(100% + (100% - (94% + 0px)));
     margin-top: -2.5%;
     margin-bottom: 40px;
-    /* width: 100px; */
     height: 40px;
     background-color: #D97B40;
 }
@@ -218,16 +215,16 @@ body {
 }
 
 .guideLine {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     min-width: 1217px;
+    justify-content: space-between;
 }
 .LeftCursorIcon {
-    margin-left: 2.5%;
+    width: 50px;
+    margin-left: -22px;
 }
 .RightCursorIcon {
-    margin-right: 2.5%;
+    width: 50px;
+    margin-right: -22px;
 }

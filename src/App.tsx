@@ -5,7 +5,6 @@ import { Panel } from './components/panel'
 import { FormoJobPanel } from './components/formojob_panel'
 import { ExtensionPanel } from './components/extension_panel'
 import { APIPanel } from './components/API_panel'
-// import { GuideLine } from './components/guideLine';
 
 function App() {
   return (
@@ -40,8 +39,6 @@ function App() {
         } 
         buttonText='GitHub' 
         link='.' />
-
-      {/* <GuideLine /> */}
     </div>
   );
 }
