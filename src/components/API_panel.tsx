@@ -1,5 +1,4 @@
 import React from 'react'
-import { PanelHeader } from './panelHeader'
 import ListBox from './listBox';
 
 import CodeIcon from '../icons/Code.png'

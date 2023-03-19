@@ -1,5 +1,4 @@
 import React from 'react'
-import { PanelHeader } from './panelHeader'
 import { Screenshot } from './screenshot'
 import ListBox from './listBox';
 
