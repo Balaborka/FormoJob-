@@ -9,6 +9,7 @@ import { APIPanel } from './components/API_panel'
 function App() {
   return (
     <div className='content'>
+      <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet"></link>
       <NavBar />
       <Product panel={
         <Panel 
