@@ -38,13 +38,21 @@ body {
  }
 .topArtefact {
     margin-top: 40px;
-    margin-bottom: 40px;
     margin-left: auto; 
-    margin-right: 0;
     width: 100px;
     height: 40px;
     background: #FC8C45;
     border-radius: 50px 0px 0px 50px;
+}
+.bottomArtefact {
+    width: calc(100% - (94% + 0px));
+    margin-left: auto; 
+    margin-left: calc(100% + (100% - (94% + 0px)));
+    margin-top: -2.5%;
+    margin-bottom: 40px;
+    /* width: 100px; */
+    height: 40px;
+    background-color: #D97B40;
 }
 .panelHeaderTitle {
     color: #FC8C45;

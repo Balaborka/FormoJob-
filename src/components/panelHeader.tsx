@@ -8,9 +8,8 @@ interface PanelHeaderProps {
 export const PanelHeader: React.FunctionComponent<PanelHeaderProps> = (props) => {
     return (
         <div className='panelHeader'>
-            <div className='topArtefact'>
-
-            </div>
+            <div className='topArtefact' />
+            <div className='bottomArtefact' />
             <div className='panelHeaderTitle'>
                 { props.header }
             </div>
