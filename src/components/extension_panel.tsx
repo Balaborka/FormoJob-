@@ -21,7 +21,6 @@ export function ExtensionPanel() {
 
     return (
         <div>
-            <PanelHeader header='Browser Extension' description='Your browser form-filling assistant' />
             <div className='extensionContainer'>
                 <Screenshot image= { ExtensionViewImage } signature='FormoJob Extension - Desktop view' />
                 <div className='extensionInstructionContainer'>

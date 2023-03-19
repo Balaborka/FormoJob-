@@ -16,7 +16,8 @@ body {
 .panel {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 0px 0px 0px 30px;
-    padding-top: 5%;
+}
+.panelChildren {
     padding-bottom: 3%;
     padding-right: 2%;
     padding-left: 2%;
@@ -35,6 +36,16 @@ body {
     align-items: center;
     flex-direction: column;
  }
+.topArtefact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto; 
+    margin-right: 0;
+    width: 100px;
+    height: 40px;
+    background: #FC8C45;
+    border-radius: 50px 0px 0px 50px;
+}
 .panelHeaderTitle {
     color: #FC8C45;
     font-weight: 900;
