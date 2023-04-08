@@ -10,12 +10,10 @@ export const PanelBuyHeader: React.FunctionComponent<PanelHeaderProps> = (props)
     return (
         <div>
             <PanelHeader children={
-                <div>
-                    <div className='panelBuyHeaderTitle'>
-                        { props.header }
-                    </div>
+                <div className='panelBuyHeaderTitle'>
+                    { props.header }
                 </div>
-            } />
+            }/>
         </div>
     )
 }
