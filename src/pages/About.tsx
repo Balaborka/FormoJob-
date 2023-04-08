@@ -5,6 +5,7 @@ import { Panel } from '../components/panel'
 import { FormoJobPanel } from '../components/formojob_panel'
 import { ExtensionPanel } from '../components/extension_panel'
 import { APIPanel } from '../components/API_panel'
+import { PanelAboutHeader } from '../components/panelAboutHeader'
 
 export function About() {
   return (
@@ -14,9 +15,8 @@ export function About() {
       <Product panel={
         <Panel 
           theme='lightPanel' 
-          headerText='A forms OCR auto-filling tool' 
-          headerDescription='You talk to your client over a cup of coffee - we generate your contracts' 
-          children={ <FormoJobPanel />} />
+          childrenHeader={ <PanelAboutHeader header={ "A forms OCR auto-filling tool" } description={ "You talk to your client over a cup of coffee - we generate your contracts" } />  }
+          childrenBody={ <FormoJobPanel />} />
         } 
         buttonText='Try Designer' 
         link='.' />
@@ -24,9 +24,8 @@ export function About() {
       <Product panel={
         <Panel 
           theme='lightPanel' 
-          headerText='Browser Extension'
-          headerDescription='Your browser form-filling assistant'
-          children={ <ExtensionPanel />} />
+          childrenHeader={ <PanelAboutHeader header={ "Browser Extension" } description={ "Your browser form-filling assistant" } />  }
+          childrenBody={ <ExtensionPanel />} />
         } 
         buttonText='Try Extension' 
         link='.' />
@@ -34,9 +33,8 @@ export function About() {
       <Product panel={
         <Panel 
           theme='darkPanel' 
-          headerText='API'
-          headerDescription='Create your own applications based on our recognizing interface'
-          children={ <APIPanel />} />
+          childrenHeader={ <PanelAboutHeader header={ "API" } description={ "Create your own applications based on our recognizing interface" } />  }
+          childrenBody={ <APIPanel />} />
         } 
         buttonText='GitHub' 
         link='.' />

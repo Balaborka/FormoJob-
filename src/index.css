@@ -73,6 +73,10 @@ body {
     background-color: #FFFFFF;
     color: #6A6A6A;
 }
+.yellowPanel {
+    background-color: #FBF7F4;
+    color: #6A6A6A;
+}
 .darkPanel {
     background-color: #575757;
     color: #FFFFFF;
@@ -99,15 +103,21 @@ body {
     background-color: #D97B40;
 }
   
-.panelHeaderTitle {
+.panelAboutHeaderTitle {
     color: #FC8C45;
     font-weight: 900;
     font-size: 40px;
     margin-bottom: 12px;
 }
-.panelHeaderDescription {
+.panelAboutHeaderDescription {
     font-weight: 700;
     font-size: 22px;
+}
+.panelBuyHeaderTitle{
+    color: #FC8C45;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 12px;
 }
 
 .blocksContainer {

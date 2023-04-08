@@ -2,8 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { GuideLine } from './guideLine';
 
 interface PanelHeaderProps {
-    header: string;
-    description: string;
+    children: React.ReactNode;
 }
 
 export const PanelHeader: React.FunctionComponent<PanelHeaderProps> = (props) => {
@@ -34,13 +33,9 @@ export const PanelHeader: React.FunctionComponent<PanelHeaderProps> = (props) =>
         <div className='panelHeader'>
             <div className='topArtefact' />
             <div className='bottomArtefact' style={{ marginTop }} ref={bottomArtefactRef} />
-            <div className='panelHeaderTitle'>
-                { props.header }
+            <div>
+              { props.children }
             </div>
-            <div className='panelHeaderDescription'>
-                { props.description }
-            </div>
-            <GuideLine />
         </div>
     )
 }
