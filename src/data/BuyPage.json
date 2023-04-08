@@ -1,0 +1,94 @@
+{"pricingPolicy": [{
+      "id": "0",
+      "name": "FormoJob",
+      "subscriptions": [{
+        "id": "0", 
+        "name": "Open Subscription", 
+        "price": "0", 
+        "paymentType": "per month",
+        "features": [
+          {"id": "0", "name": "Templates", "value": "1"},
+          {"id": "1", "name": "Fields in a template", "value": "10"},
+          {"id": "2", "name": "Scanned documents", "value": "5"},
+          {"id": "3", "name": "Priority support", "value": "-"}
+        ]
+      },
+      {
+        "id": "1", 
+        "name": "Hobby Subscription", 
+        "price": "9.99", 
+        "paymentType": "per month",
+        "features": [
+          {"id": "0", "name": "Templates", "value": "∞"},
+          {"id": "1", "name": "Fields in a template", "value": "20"},
+          {"id": "2", "name": "Scanned documents", "value": "100"},
+          {"id": "3", "name": "Priority support", "value": "5"}
+        ]
+      },        
+      {
+        "id": "2", 
+        "name": "Business Subscription", 
+        "price": "29.99", 
+        "paymentType": "per month",
+        "features": [
+          {"id": "0", "name": "Templates", "value": "∞"},
+          {"id": "1", "name": "Fields in a template", "value": "∞"},
+          {"id": "2", "name": "Scanned documents", "value": "∞"},
+          {"id": "3", "name": "Priority support", "value": "10"}
+        ]
+      }]
+    },
+  
+    {
+      "id": "1",
+      "name": "API",
+      "subscriptions": [{
+        "id": "0", 
+        "name": "Smart Subscription", 
+        "price": "0.10", 
+        "paymentType": "per request",
+        "features": [
+          {"id": "0", "name": "Requests", "value": "∞"},
+          {"id": "1", "name": "Fields in a request", "value": "1000"},
+          {"id": "2", "name": "Priority support", "value": "-"}
+        ]
+      },
+      {
+        "id": "1", 
+        "name": "Advanced Subscription", 
+        "price": "19.99", 
+        "paymentType": "per month",
+        "features": [
+          {"id": "0", "name": "Requests", "value": "∞"},
+          {"id": "1", "name": "Fields in a request", "value": "∞"},
+          {"id": "2", "name": "Priority support", "value": "5"}
+        ]
+      },        
+      {
+        "id": "2", 
+        "name": "PRO Subscription", 
+        "price": "199.99", 
+        "paymentType": "per year",
+        "features": [
+          {"id": "0", "name": "Requests", "value": "∞"},
+          {"id": "1", "name": "Fields in a request", "value": "∞"},
+          {"id": "2", "name": "Priority support", "value": "10"},
+          {"id": "3", "name": "30-day refund", "value": "+"}
+        ]
+      }]
+    },
+
+    {
+      "id": "2",
+      "name": "Extra Support",
+      "price": "10",
+      "paymentType": "per 10 additional inquiries"
+    },
+
+    {
+      "id": "3",
+      "name": "Browser Extension",
+      "paymentType": "It’s totally free!"
+    }
+  ]
+}
