@@ -12,7 +12,19 @@ export function Buy() {
       <NavBar />
         <Panel 
           theme='yellowPanel' 
-          childrenHeader={ <PanelBuyHeader header={ "FormoJob" } />  } 
+          childrenHeader={ <PanelBuyHeader header={ Data[0].name } />  } 
+          childrenBody={ null } />
+        <Panel 
+          theme='yellowPanel' 
+          childrenHeader={ <PanelBuyHeader header={ Data[1].name } />  } 
+          childrenBody={ null } />
+        <Panel 
+          theme='yellowPanel' 
+          childrenHeader={ <PanelBuyHeader header={ Data[2].name } />  } 
+          childrenBody={ null } />
+        <Panel 
+          theme='yellowPanel' 
+          childrenHeader={ <PanelBuyHeader header={ Data[3].name } />  } 
           childrenBody={ null } />
     </div>
   );

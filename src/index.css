@@ -73,6 +73,7 @@ body {
 .yellowPanel {
     background-color: #FBF7F4;
     color: #6A6A6A;
+    margin-bottom: 70px;  
 }
 .darkPanel {
     background-color: #575757;
@@ -99,7 +100,7 @@ body {
     height: 40px;
     background-color: #D97B40;
 }
-  
+
 .panelAboutHeaderTitle {
     color: #FC8C45;
     font-weight: 900;

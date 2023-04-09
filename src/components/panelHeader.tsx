@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, CSSProperties } from 'react'
 import { GuideLine } from './guideLine';
 
 interface PanelHeaderProps {
