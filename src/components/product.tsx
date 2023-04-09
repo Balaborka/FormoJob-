@@ -9,7 +9,7 @@ interface Props {
 
 export function Product(props: Props) {
   return (
-  <div className='product'>
+  <div>
     { props.panel }
     <div className='buttonContainer'>
     {/* <Link to={ props.link }> */}
