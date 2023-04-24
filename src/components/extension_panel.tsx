@@ -1,5 +1,7 @@
 import React from 'react'
 import { Screenshot } from './screenshot'
+import { PanelAboutHeader } from '../components/panelAboutHeader'
+
 import ListBox from './listBox';
 
 import TemplatesIcon from '../icons/Templates.png'
@@ -20,6 +22,7 @@ export function ExtensionPanel() {
 
     return (
         <div>
+            <PanelAboutHeader header={ "Browser Extension" } description={ "Your browser form-filling assistant" } />
             <div className='extensionContainer'>
                 <Screenshot image= { ExtensionViewImage } signature='FormoJob Extension - Desktop view' />
                 <div className='extensionInstructionContainer'>

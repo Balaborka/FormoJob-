@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { PanelHeader } from './panelHeader'
-import { GuideLine } from './guideLine';
 
 interface PanelHeaderProps {
     header: string;
@@ -11,7 +10,7 @@ export const PanelAboutHeader: React.FunctionComponent<PanelHeaderProps> = (prop
     return (
         <div>
             <PanelHeader children={
-                <div>
+                <div className='panelHeaderContent'>
                     <div className='panelAboutHeaderTitle'>
                         { props.header }
                     </div>
@@ -20,7 +19,6 @@ export const PanelAboutHeader: React.FunctionComponent<PanelHeaderProps> = (prop
                     </div>
                 </div>
             } />
-            <GuideLine />
         </div>
     )
 }

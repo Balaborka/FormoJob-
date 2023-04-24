@@ -1,5 +1,6 @@
 import React from 'react'
 import ListBox from './listBox';
+import { PanelAboutHeader } from '../components/panelAboutHeader'
 
 import CodeIcon from '../icons/Code.png'
 
@@ -17,6 +18,8 @@ export function APIPanel() {
 
     return (
         <div>
+            <PanelAboutHeader header={ "API" } description={ "Create your own applications based on our recognizing interface" } />
+
             <div className='APIcontentContainer'>
                 <img className='blockIcon' src={ CodeIcon } />
                 <ListBox itemsSource={ listUseAPI } />

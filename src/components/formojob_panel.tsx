@@ -1,6 +1,7 @@
 import React from 'react'
 import { Block } from './block'
 import { Instruction } from './instruction'
+import { PanelAboutHeader } from '../components/panelAboutHeader'
 
 import ListBox from './listBox';
 
@@ -34,6 +35,7 @@ export function FormoJobPanel() {
     
     return (
         <div>
+            <PanelAboutHeader header={ "A forms OCR auto-filling tool" } description={ "You talk to your client over a cup of coffee - we generate your contracts" } />
             <div className='blocksContainer'>
                 <Block
                     title='Save your time'

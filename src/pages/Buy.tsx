@@ -12,20 +12,16 @@ export function Buy() {
       <NavBar />
         <Panel 
           theme='yellowPanel' 
-          childrenHeader={ <PanelBuyHeader header={ Data[0].name } />  } 
-          childrenBody={ null } />
+          children={ <PanelBuyHeader header={ Data[0].name } />  } />
         <Panel 
           theme='yellowPanel' 
-          childrenHeader={ <PanelBuyHeader header={ Data[1].name } />  } 
-          childrenBody={ null } />
+          children={ <PanelBuyHeader header={ Data[1].name } />  } />
         <Panel 
           theme='yellowPanel' 
-          childrenHeader={ <PanelBuyHeader header={ Data[2].name } />  } 
-          childrenBody={ null } />
+          children={ <PanelBuyHeader header={ Data[2].name } />  } />
         <Panel 
           theme='yellowPanel' 
-          childrenHeader={ <PanelBuyHeader header={ Data[3].name } />  } 
-          childrenBody={ null } />
+          children={ <PanelBuyHeader header={ Data[3].name } />  } />
     </div>
   );
 }
