@@ -33,6 +33,7 @@ export const SubscriptionsSection: React.FunctionComponent<SubscriptionsSectionP
                                 </div>
                             ))}
                         </div>
+                        <button className='buyBtn btn'>Buy</button>
                     </div>
                 ))}
             </div>

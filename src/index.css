@@ -271,7 +271,7 @@ body {
     margin-bottom: -30px;
 }
 .subscriptionBlock {
-    padding-top: 15px;
+    padding-top: 30px;
     width: calc((100% / 3) - 10px); 
     background-color: white;
     display: flex;
@@ -302,6 +302,7 @@ body {
 }
 .features {
     margin-left: 10px;
+    padding-bottom: 20px;
     align-self: flex-start;
 }
 .feature {
@@ -312,4 +313,17 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     color: #FC8C45;
+}
+
+.buyBtn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    background: #FC8C45;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border-radius: 15px;
+    margin-top: auto;
+    margin-bottom: 30px;
 }
