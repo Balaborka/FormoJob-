@@ -1,12 +1,16 @@
 import { PanelAboutHeader } from '../components/panelAboutHeader'
 import Data from "../data/BuyPage.json"
-import { PanelBuyHeader } from '../components/panelBuyHeader'
+import { SubscriptionsSection } from './subscriptionsSection'
 
 export function BuyFormoJobPanel() {
     return (
         <div>
-            <PanelBuyHeader header={ Data[0].name } />
-            {/* <PanelAboutHeader header={ "A forms OCR auto-filling tool" } description={ "You talk to your client over a cup of coffee - we generate your contracts" } /> */}
+            <div className='panelBuyHeaderTitle' >
+                    { Data[0].name }
+            </div>
+            <div>
+                <SubscriptionsSection ID={ parseInt(Data[0].id) } />
+            </div>
         </div>
     )
 }

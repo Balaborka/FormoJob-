@@ -2,6 +2,7 @@
   {
     "id": "0",
     "name": "FormoJob",
+    "trialFor": "Hobby",
     "subscriptions": [
       {
         "id": "0",
@@ -92,6 +93,7 @@
   {
     "id": "1",
     "name": "API",
+    "trialFor": "Advanced",
     "subscriptions": [
       {
         "id": "0",
