@@ -283,6 +283,9 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.subscriptionBlockFirst {
+    border-radius: 0px 0px 0px 30px;
+}
 .subscriptionTitle {
     color: #FC8C45;    
     font-weight: bold;

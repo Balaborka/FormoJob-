@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavBar } from '../components/navbar'
 import Data from "../data/BuyPage.json"
-import { BuyFormoJobPanel } from "../components/buyFormojob_panel"
+import { BuyPanel } from "../components/buy_panel"
 import { Panel } from '../components/panel'
+import { SubscriptionsSection } from '../components/subscriptionsSection'
 
 export function Buy() {
   return (
@@ -11,16 +12,16 @@ export function Buy() {
       <NavBar IsBuyPage={true} />
         <Panel 
           theme='yellowPanel' 
-          children={ <BuyFormoJobPanel /> } />
+          children={ <BuyPanel id={0} children={ <SubscriptionsSection ID={ parseInt(Data[0].id) } />} />}/>
         <Panel 
           theme='yellowPanel' 
-          children={ null  } />
+          children={ <BuyPanel id={1} children={ <SubscriptionsSection ID={ parseInt(Data[1].id) } />} />}/>
         <Panel 
           theme='yellowPanel' 
-          children={ null  } />
+          children={ <BuyPanel id={2} children={ null } />}/>
         <Panel 
           theme='yellowPanel' 
-          children={ null  } />
+          children={ <BuyPanel id={3} children={ null } />}/>
     </div>
   );
 }

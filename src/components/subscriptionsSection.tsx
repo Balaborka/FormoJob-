@@ -17,8 +17,8 @@ export const SubscriptionsSection: React.FunctionComponent<SubscriptionsSectionP
                 </button>
             </div>
             <div className='subscriptions'>
-                {subscriptions?.map((el) => (
-                    <div className='subscriptionBlock'>
+                {subscriptions?.map((el, index) => (
+                    <div className={`subscriptionBlock ${index === 0 ? 'subscriptionBlockFirst' : ''}`} key={el.id}>
                         <div className='subscriptionTitle'>{el.name}</div>
                         <div className='subscriptionPrice'>
                             <div className='price'>${el.price}</div>
