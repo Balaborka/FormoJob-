@@ -300,3 +300,16 @@ body {
     font-weight: bold;
     margin-right: 5px;
 }
+.features {
+    margin-left: 10px;
+    align-self: flex-start;
+}
+.feature {
+    display: flex;
+}
+.featureValue {
+    text-shadow: 0 0 1px #FC8C45, 0 0 1px #FC8C45, 0 0 1px #FC8C45;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #FC8C45;
+}

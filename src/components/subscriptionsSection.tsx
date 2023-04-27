@@ -24,6 +24,15 @@ export const SubscriptionsSection: React.FunctionComponent<SubscriptionsSectionP
                             <div className='price'>${el.price}</div>
                             <div className='paymentTepe'>{el.paymentType}</div>
                         </div>
+                        <div className='features'>
+                            {el.features.map((fe) => (
+                                <div className='feature' key={fe.id}>
+                                    <div className='featureName'>{fe.name}:</div>
+                                    <div className='featureValue'>{fe.value}</div>
+                                    <div className='featureNote'>{fe.note}</div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 ))}
             </div>
