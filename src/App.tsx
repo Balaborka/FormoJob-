@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react"
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import { About } from './pages/About'
 import { Buy } from './pages/Buy'
 
 function App() {
   return (
-    // <About />
-    <Buy />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Buy />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={ <About /> } />
+      </Routes>
+    </Router>
   );
 }
 

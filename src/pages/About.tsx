@@ -10,11 +10,12 @@ export function About() {
   return (
     <div className='content'>
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet"></link>
-      <NavBar />
+      <NavBar IsBuyPage={false} />
       <Product panel={
         <Panel 
           theme='lightPanel' 
-          children={ <FormoJobPanel />} />
+          children={ <FormoJobPanel />} 
+          showGuideLines={true} />
         } 
         buttonText='Try Designer' 
         link='.' />
@@ -22,7 +23,8 @@ export function About() {
       <Product panel={
         <Panel 
           theme='lightPanel' 
-          children={ <ExtensionPanel />} />
+          children={ <ExtensionPanel />} 
+          showGuideLines={true} />
         } 
         buttonText='Try Extension' 
         link='.' />
@@ -30,7 +32,8 @@ export function About() {
       <Product panel={
         <Panel 
           theme='darkPanel' 
-          children={ <APIPanel />} />
+          children={ <APIPanel />} 
+          showGuideLines={true} />
         } 
         buttonText='GitHub' 
         link='.' />
