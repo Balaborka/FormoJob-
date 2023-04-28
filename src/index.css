@@ -345,3 +345,10 @@ body {
     font-size: 36px;
     margin-bottom: 30px;
 }
+
+.extensionPaymentType {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #FC8C45;
+    font-weight: bold;
+}

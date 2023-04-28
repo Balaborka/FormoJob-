@@ -7,12 +7,11 @@ interface ExtensionSectionProps {
 
 export const ExtensionSection: React.FunctionComponent<ExtensionSectionProps> = (props) => {
     const id = props.ID;
-    const subscriptions = Data[id].subscriptions;
 
     return (
-        <div>
-            <div className='buyButtonContainer'>
-            </div>
+        <div className='supportContentContainer'>
+            <div className='extensionPaymentType'>{Data[id].paymentType}</div>
+            <button className='buyBtn btn'>Use</button>
         </div>
     );
 };
