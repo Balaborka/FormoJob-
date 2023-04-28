@@ -179,7 +179,7 @@
     "id": "2",
     "name": "Extra Support",
     "price": "10",
-    "paymentType": "per 10 additional inquiries"
+    "pricePerInquiry": "1"
   },
   {
     "id": "3",

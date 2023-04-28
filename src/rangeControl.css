@@ -1,0 +1,33 @@
+    .rangeControl {
+        width: 300px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .rangeControl input[type="range"] {
+        width: 100%;
+    }
+
+    .rangeValues {
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        color: #FC8C45;
+        font-weight: bold;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        background-color: #9A9998;
+        height: 4px;
+    }
+    
+    input[type="range"]::-webkit-slider-thumb {
+         -webkit-appearance: none;
+        background-color: #FC8C45;
+        border-radius: 1em;
+        width: 20px;
+        height: 20px;
+    }
+      
+    

@@ -4,6 +4,8 @@ import Data from "../data/BuyPage.json"
 import { BuyPanel } from "../components/buy_panel"
 import { Panel } from '../components/panel'
 import { SubscriptionsSection } from '../components/subscriptionsSection'
+import { ExtensionSection } from '../components/extensionSection'
+import { SupportSection } from '../components/supportSection'
 
 export function Buy() {
   return (
@@ -12,16 +14,16 @@ export function Buy() {
       <NavBar IsBuyPage={true} />
         <Panel 
           theme='yellowPanel' 
-          children={ <BuyPanel id={0} children={ <SubscriptionsSection ID={ parseInt(Data[0].id) } />} />}/>
+          children={ <BuyPanel id={0} children={ <SubscriptionsSection ID={0} />} />}/>
         <Panel 
           theme='yellowPanel' 
-          children={ <BuyPanel id={1} children={ <SubscriptionsSection ID={ parseInt(Data[1].id) } />} />}/>
+          children={ <BuyPanel id={1} children={ <SubscriptionsSection ID={1} />} />}/>
         <Panel 
           theme='yellowPanel' 
-          children={ <BuyPanel id={2} children={ null } />}/>
+          children={ <BuyPanel id={2} children={ <SupportSection ID={2} /> } />}/>
         <Panel 
           theme='yellowPanel' 
-          children={ <BuyPanel id={3} children={ null } />}/>
+          children={ <BuyPanel id={3} children={ <ExtensionSection ID={3} />  } />}/>
     </div>
   );
 }
