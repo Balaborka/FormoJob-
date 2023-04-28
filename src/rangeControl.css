@@ -17,7 +17,7 @@
     }
 
     input[type=range] {
-        -webkit-appearance: none;
+        appearance: none;
         background-color: #9A9998;
         height: 4px;
     }
