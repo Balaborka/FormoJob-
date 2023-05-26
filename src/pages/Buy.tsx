@@ -21,9 +21,9 @@ export function Buy() {
         <Panel 
           theme='yellowPanel' 
           children={ <BuyPanel id={2} children={ <SupportSection ID={2} /> } />}/>
-        <Panel 
+        {/* <Panel 
           theme='yellowPanel' 
-          children={ <BuyPanel id={3} children={ <ExtensionSection ID={3} />  } />}/>
+          children={ <BuyPanel id={3} children={ <ExtensionSection ID={3} />  } />}/> */}
     </div>
   );
 }

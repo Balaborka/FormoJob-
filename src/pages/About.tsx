@@ -20,14 +20,14 @@ export function About() {
         buttonText='Try Designer' 
         link='.' />
 
-      <Product panel={
+      {/* <Product panel={
         <Panel 
           theme='lightPanel' 
           children={ <ExtensionPanel />} 
           showGuideLines={true} />
         } 
         buttonText='Try Extension' 
-        link='.' />
+        link='.' /> */}
 
       <Product panel={
         <Panel 
