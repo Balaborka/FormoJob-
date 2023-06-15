@@ -1,5 +1,5 @@
 import React from 'react';
-import { GuideLine } from './guideLine';
+import { GuideLine } from '../guideLine';
 
 interface PanelProps {
   theme: string;

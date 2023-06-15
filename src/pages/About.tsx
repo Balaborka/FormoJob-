@@ -1,7 +1,7 @@
 import React from 'react';
 import { Product } from '../components/product'
 import { NavBar } from '../components/navbar'
-import { Panel } from '../components/panel'
+import { Panel } from '../components/Panel/panel'
 import { FormoJobPanel } from '../components/formojob_panel'
 import { ExtensionPanel } from '../components/extension_panel'
 import { APIPanel } from '../components/API_panel'

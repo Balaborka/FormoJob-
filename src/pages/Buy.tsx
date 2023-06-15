@@ -2,7 +2,7 @@ import React from 'react';
 import { NavBar } from '../components/navbar'
 import Data from "../data/BuyPage.json"
 import { BuyPanel } from "../components/buy_panel"
-import { Panel } from '../components/panel'
+import { Panel } from '../components/Panel/panel'
 import { SubscriptionsSection } from '../components/subscriptionsSection'
 import { ExtensionSection } from '../components/extensionSection'
 import { SupportSection } from '../components/supportSection'
